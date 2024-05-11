@@ -1,2 +1,2 @@
 # Digital-Dreamachine
-A stroboscopic web experience for inducing altered brain states
+Stroboscopic web experience for inducing altered brain states
