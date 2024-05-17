@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Dreamachine</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="about">
+      <div id="aboutContent">
+        <p>
+          This is a web-based homage to the Dreamachine invented by Brion Gysin
+          and Ian Sommerville.
+          <br />
+          <br />
+          The Dreamachine is a stroboscopic flickering light art device that
+          produces eidetic visual stimuli.
+          <br />
+          <br />
+          The idea is that the pulsations of light correspond to the electrical
+          oscillations normally present in the human brain while relaxing,
+          inducing an alpha wave, hypanagogic mental state.
+          <br />
+          <br />
+          As with the Dreamachine, the light fluctuations of this web page are
+          intended to be viewed with the eyes closed.
+          <br />
+          <br />
+          <a
+            href="http://www.wikipedia.com/wiki/Dreamachine"
+            id="wikiLink"
+            target="_blank"
+            >Click here to read more about the Dreamachine.</a
+          >
+          <br />
+          <br />
+          AS THESE EFFECTS ARE INTENDED TO INDUCE HYPNAGOGIC IMAGERY, YOU MAY
+          EXPERIENCE CLOSED-EYE HALLUCINATIONS.
+          <br />
+          <br />
+          THE LIGHT EFFECTS ON THIS PAGE MAY BE DANGEROUS FOR PEOPLE WITH
+          PHOTOSENSITIVE EPILEPSY, HEART CONDITIONS, NERVOUS DISORDERS OR
+          PSYCHOTIC CONDITIONS. NOT TO BE USED BY CHILDREN.
+          <br />
+          <br />
+          PLEASE USE WISELY AND AT YOUR DISCRETION.
+          <br />
+          <br />
+          BY CONTINUING ON TO THE FOLLOWING PAGE, YOU ARE ACCEPTING THE RISKS
+          ASSOCIATED WITH USING THIS WEBSITE AND ASSUMING FULL RESPONSIBILITY
+          FOR ANY POSSIBLE SIDE EFFECTS.
+          <br />
+          <br />
+          <button id="agree">I AGREE</button
+          ><button id="disagree">
+            <a href="http://www.google.com" id="googleLink">I DO NOT AGREE</a>
+          </button>
+          <br />
+          <br />
+          Press <b>Spacebar</b> at any time to pause the flashing.
+        </p>
+      </div>
+    </div>
+    <div id="flashBackground" class="hide"></div>
+    <div id="customization">
+      <div id="customizationContent">
+        <p>Color</p>
+        <input type="color" id="color" value="#FFFFFF" />
+        <p>Speed</p>
+        <input type="range" min="77" max="142" id="speedSlider" />
+      </div>
+    </div>
+    <div id="controls">
+      <button id="start">Start</button>
+      <button id="stop">Stop</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
